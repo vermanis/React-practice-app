@@ -15,7 +15,7 @@ const Employee= () => {
         .catch( err => console.log(err));
 
 
-    }, [employee])
+    }, [])
 
 
     
@@ -23,8 +23,8 @@ const Employee= () => {
     return (
         <div>
            
-            <h1>Employee Name : {employee.ename}</h1> 
-            
+            <h2>Employee Name : {employee.ename}</h2> 
+            <h4>Salary p.a. : {employee.salarypa} </h4>
         </div>
     )
 }
