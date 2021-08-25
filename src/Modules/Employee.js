@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 
 const Employee= () => {
 
-    const [employee, setEmployee] = useState(null);
+    const [employee, setEmployee] = useState({});
     const{ empid } = useParams('empid')
 
     console.log(empid)
@@ -16,6 +16,9 @@ const Employee= () => {
 
 
     }, [employee])
+
+
+    
 
     return (
         <div>
