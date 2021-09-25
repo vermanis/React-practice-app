@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+p{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
+/* My CSS */
+.form-label {
+  margin-bottom: 0rem;
+}
+
+.my-primary{
+  background-color: #00C4CC;
+  color: white;
+  
+}
+.my-primary-bg{
+  background-color: #00C4CC;
+}
+.my-primary-text{
+  font-size: small;
+  color: #FF5757;
+  cursor: pointer;
+}
+
+.my-primary-text p:hover{
+  color: white;
+}
+
+.sweet-gray-bg{
+ background-color: #F5F5EF; 
+}
